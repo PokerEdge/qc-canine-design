@@ -9,6 +9,7 @@ import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { FooterComponent } from './footer/footer.component';
+import { StaffComponent } from './staff/staff.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     ServicesComponent,
     ContactComponent,
     NotfoundComponent,
-    FooterComponent
+    FooterComponent,
+    StaffComponent
   ],
   imports: [
     BrowserModule,
